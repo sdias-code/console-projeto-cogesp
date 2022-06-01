@@ -16,7 +16,7 @@ namespace AppRelacionamento.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                @"Data Source=S1189;Initial Catalog=SilvioBbAppBanco;User Id=axel; Password=axel123;");
+                "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=db_projeto_cogesp_conta;Integrated Security=True;");
         }
     }
 }
